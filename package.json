@@ -1,0 +1,32 @@
+{
+  "name": "gallery-menstack",
+  "version": "1.0.0",
+  "description": "server that serve get api from mongo to angular ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugisyahid/gallery-menstack.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "ligar mugi syahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugisyahid/gallery-menstack/issues"
+  },
+  "homepage": "https://github.com/mugisyahid/gallery-menstack#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
